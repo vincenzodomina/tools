@@ -24,9 +24,19 @@ brew install vcprompt
 
 ## Frameworks for web development
 # TailwindCSS
-npm install tailwindcss
+npm init -y  #create package.json file
+npm install tailwindcss postcss-cli autoprefixer
+npx tailwind init
 # React
 npx create-react-app my-app
 cd my-app
 npm start
+
+## Visual Studio Code plugins:
+# Tailwind CSS Intellisense
+# SVG Viewer
+# path intellisense
+# sass
+# javascript code snippets
+# visual studio intellicode
 
