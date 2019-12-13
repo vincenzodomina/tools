@@ -1,7 +1,9 @@
-## Mac setup
-
+## Mac setup and apps
 # show path in finder
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool true; killall Finder
+# Google chrome Browser - React Devtools
+# brew cask install visual-studio-code
+# Flux
 
 ## Terminal
 xcode-select --install
@@ -10,7 +12,6 @@ brew update
 brew cask install iterm2
 brew install tldr
 brew install tmux
-
 # update iterm2 settings -> colors, keep directory open new shell, keyboard shortcuts
 brew install bash # latest version of bash
 # install nvm/node
@@ -21,11 +22,11 @@ npm install -g lite-server eslint
 brew install git
 brew install vcprompt
 
-## Mac apps
-# Google chrome Browser - React Devtools
-# brew cask install visual-studio-code
-# Flux
-
-## Terminal commands/ Frameworks for web development
-
+## Frameworks for web development
+# TailwindCSS
+npm install tailwindcss
+# React
+npx create-react-app my-app
+cd my-app
+npm start
 
