@@ -1,9 +1,22 @@
 
-# Terminal
+## Terminal
+xcode-select --install
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew update
+brew cask install iterm2
+# update iterm2 settings -> colors, keep directory open new shell, keyboard shortcuts
+brew install bash # latest version of bash
+# install nvm/node
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+nvm install stable
+mkdir ~/Projects
+npm install -g lite-server eslint
+brew install tldr
 
-Homebrew/terminal/bash
+## Mac apps
 Google chrome Browser - React Devtools
-Node.js - nvm
-Code Editor - vs code
-Code Editor Extensions
-Break timer and Flux
+brew cask install visual-studio-code
+Flux
+
+## Terminal commands/ Frameworks
+
