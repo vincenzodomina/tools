@@ -26,8 +26,8 @@ brew install vcprompt
 # TailwindCSS
 npm init -y  #create package.json file
 npm install tailwindcss postcss-cli autoprefixer
-npx tailwind init
-code postcss.config.js  # under scripts put in: "build": "postcss css/main.css -o public/build/main.css"
+npx tailwind init . # under scripts put in: "build": "postcss css/main.css -o public/build/main.css"
+code postcss.config.js  # module.exports = {plugins: [require('tailwindcss'),require('autoprefixer'),]}
 npm run build
 # React
 npx create-react-app my-app
