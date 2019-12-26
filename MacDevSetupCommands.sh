@@ -29,6 +29,7 @@ npm install tailwindcss postcss-cli autoprefixer
 npx tailwind init . # In package.json under scripts put in: "build": "postcss css/main.css -o public/build/main.css"
 echo "module.exports = {plugins: [require('tailwindcss'),require('autoprefixer'),]}" > postcss.config.js
 npm run build
+npm install tailwindcss-animatecss #Animations
 # React
 npx create-react-app my-app
 cd my-app
