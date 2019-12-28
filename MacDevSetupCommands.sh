@@ -35,6 +35,7 @@ npm install tailwindcss-animatecss #Animations
 npx create-react-app my-app
 cd my-app
 npm start
+git remote add origin #<remote-path>
 
 ## Visual Studio Code plugins:
 # Tailwind CSS Intellisense
