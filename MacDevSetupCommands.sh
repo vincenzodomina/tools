@@ -35,6 +35,7 @@ npm install tailwindcss-animatecss #Animations
 # Using npm
 npm install @fullhuman/postcss-purgecss --save-dev
 # To minify CSS setup PurgeCSS (https://tailwindcss.com/docs/controlling-file-size/)
+# If that doesn'work, minify manually in CL via 'purgecss --css css/main.css --content index.html --output css/'
 # React
 npx create-react-app my-app
 cd my-app
