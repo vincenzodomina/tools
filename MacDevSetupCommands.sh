@@ -31,6 +31,11 @@ echo "module.exports = {plugins: [require('tailwindcss'),require('autoprefixer')
 npm run build
 npm install tailwindcss-animatecss #Animations
 # modify tailwind.config.js according to https://www.npmjs.com/package/tailwindcss-animatecss
+# PurgeCSS
+# Using npm
+npm install @fullhuman/postcss-purgecss --save-dev
+# Next, add PurgeCSS as the last plugin in postcss.config.js file (from https://tailwindcss.com/docs/controlling-file-size/)
+# Next, ignore base and components styles
 # React
 npx create-react-app my-app
 cd my-app
