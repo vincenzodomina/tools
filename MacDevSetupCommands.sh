@@ -23,6 +23,7 @@ brew install git
 brew install vcprompt
 
 ## Frameworks for web development
+
 # TailwindCSS
 npm init -y  #create package.json file
 npm install tailwindcss postcss-cli autoprefixer
@@ -36,6 +37,7 @@ npm install tailwindcss-animatecss #Animations
 npm install @fullhuman/postcss-purgecss --save-dev
 # To minify CSS setup PurgeCSS (https://tailwindcss.com/docs/controlling-file-size/)
 # If that doesn'work, minify manually with replacing build command with 'purgecss --css css/main.css --content index.html --output css/'
+
 # React
 npx create-react-app my-app
 cd my-app
@@ -50,3 +52,14 @@ git remote add origin #<remote-path>
 # javascript code snippets
 # visual studio intellicode
 
+## Frameworks for native development
+
+# React native
+
+# expo.io
+brew install watchman
+# node.js needs to be installed
+npm install expo-cli --global
+expo init my-new-project
+cd my-new-project
+expo start # then download Expo from Appstore on mobile phone and scan QR-code
