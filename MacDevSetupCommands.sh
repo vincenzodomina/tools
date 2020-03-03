@@ -64,3 +64,7 @@ expo init my-new-project
 cd my-new-project
 expo start # then download Expo from Appstore on mobile phone and scan QR-code
 brew update && brew cask install react-native-debugger # RN dev tools
+
+## Databases
+# PostGreSQL from https://www.enterprisedb.com/
+npm install pg # toolset for using node with postgres
