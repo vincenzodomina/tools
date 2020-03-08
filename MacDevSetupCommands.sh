@@ -66,7 +66,7 @@ expo start # then download Expo from Appstore on mobile phone and scan QR-code
 brew update && brew cask install react-native-debugger # RN dev tools
 
 ## Databases
-# PostGreSQL from https://www.enterprisedb.com/
-npm install pg # toolset for using node with postgres
+# PostGreSQL Installer from https://www.enterprisedb.com/
+npm install pg # toolset for using node with postgres, API: const { Client } = require('pg')
 npm install body-parser # Node.js body parsing middleware, API:var bodyParser = require('body-parser')
 npm install express --save # Express.js - Web-Framework für Node.js, API:var express = require('express');var app = express();
