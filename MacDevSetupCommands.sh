@@ -71,7 +71,12 @@ npm install pg # toolset for using node with postgres, API: const { Client } = r
 npm install body-parser # Node.js body parsing middleware, API:var bodyParser = require('body-parser')
 npm install express --save # Express.js - Web-Framework für Node.js, API:var express = require('express');var app = express();
 
+# Node.js und Express
 # If you are only interested in the node packages installed globally without the full TREE then:
 npm -g ls --depth=0
 # or locally (omit -g) :
 npm ls --depth=0
+# Express files template
+npm install express-generator -g
+npm install -g nodemon # Develop without restarting node on filechanges
+npm install axios # Make http requests from node.js
