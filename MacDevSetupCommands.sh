@@ -70,3 +70,8 @@ brew update && brew cask install react-native-debugger # RN dev tools
 npm install pg # toolset for using node with postgres, API: const { Client } = require('pg')
 npm install body-parser # Node.js body parsing middleware, API:var bodyParser = require('body-parser')
 npm install express --save # Express.js - Web-Framework für Node.js, API:var express = require('express');var app = express();
+
+# If you are only interested in the node packages installed globally without the full TREE then:
+npm -g ls --depth=0
+# or locally (omit -g) :
+npm ls --depth=0
