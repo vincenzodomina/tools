@@ -43,6 +43,7 @@ npx create-react-app my-app
 cd my-app
 npm start
 git remote add origin #<remote-path>
+npm install redux # predictable state container with store, actions and reducers
 npm install @material-ui/core # React components
 npm install react-router-dom # dynamic routing inside of react, https://reacttraining.com/react-route
 npm install react-js-pagination # A ReactJS dumb component to render a pagination with no built-in styles. 
