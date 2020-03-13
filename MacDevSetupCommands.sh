@@ -43,6 +43,11 @@ npx create-react-app my-app
 cd my-app
 npm start
 git remote add origin #<remote-path>
+npm install @material-ui/core # React components
+npm install react-router-dom # dynamic routing inside of react, https://reacttraining.com/react-route
+
+# JavaScript
+npm install moment # managing time and dates in javascript
 
 ## Visual Studio Code plugins:
 # Tailwind CSS Intellisense
@@ -68,10 +73,10 @@ brew update && brew cask install react-native-debugger # RN dev tools
 ## Databases
 # PostGreSQL Installer from https://www.enterprisedb.com/
 npm install pg # toolset for using node with postgres, API: const { Client } = require('pg')
-npm install body-parser # Node.js body parsing middleware, API:var bodyParser = require('body-parser')
-npm install express --save # Express.js - Web-Framework für Node.js, API:var express = require('express');var app = express();
 
 # Node.js und Express
+npm install body-parser # Node.js body parsing middleware, API:var bodyParser = require('body-parser')
+npm install express # Express.js - Web-Framework für Node.js, API:var express = require('express');var app = express();
 # If you are only interested in the node packages installed globally without the full TREE then:
 npm -g ls --depth=0
 # or locally (omit -g) :
