@@ -45,6 +45,7 @@ npm start
 git remote add origin #<remote-path>
 npm install @material-ui/core # React components
 npm install react-router-dom # dynamic routing inside of react, https://reacttraining.com/react-route
+npm install react-js-pagination # A ReactJS dumb component to render a pagination with no built-in styles. 
 
 # JavaScript
 npm install moment # managing time and dates in javascript
