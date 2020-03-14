@@ -86,4 +86,5 @@ npm ls --depth=0
 # Express files template
 npm install express-generator -g
 npm install -g nodemon # Develop without restarting node on filechanges
+npm install --save-dev nodemon # Save nodemon as dev dependency
 npm install axios # Make http requests from node.js
