@@ -75,7 +75,7 @@ brew update && brew cask install react-native-debugger # RN dev tools
 ## Databases
 # PostGreSQL Installer from https://www.enterprisedb.com/
 npm install pg # toolset for using node with postgres, API: const { Client } = require('pg')
-psql -d mydb -U myuser # Access database through terminal
+psql -d mydb -U myuser # Access database through terminal, \c connect to db, \dt list all tables, \q quit connection
 
 # Node.js und Express
 npm install body-parser # Node.js body parsing middleware, API:var bodyParser = require('body-parser')
