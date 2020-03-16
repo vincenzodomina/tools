@@ -89,3 +89,4 @@ npm install express-generator -g # creates expresss template, usage: $ express -
 npm install -g nodemon # Develop without restarting node on filechanges
 npm install --save-dev nodemon # Save nodemon as dev dependency, start it with: nodemon [your node app]
 npm install axios # Make http requests from node.js
+npm install cors # cross-origin-ressource-sharing, providing a Connect/Express middleware that can be used to enable CORS 
