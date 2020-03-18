@@ -49,6 +49,8 @@ npm install react-router-dom # dynamic routing inside of react, https://reacttra
 npm install react-js-pagination # A ReactJS dumb component to render a pagination with no built-in styles. 
 npm install @material-ui/core
 npm install @material-ui/icons
+npm install react-autosuggest # Autocompletion at search bars
+npm install autosuggest-highlight  # Autocompletion at search bars
 
 # JavaScript
 npm install moment # managing time and dates in javascript
