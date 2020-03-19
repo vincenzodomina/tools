@@ -50,6 +50,7 @@ npm install react-js-pagination # A ReactJS dumb component to render a paginatio
 npm install @material-ui/core
 npm install @material-ui/icons
 npm install react-select # Autocompletion at search bars
+npm install @material-ui/lab # for e.g. rating with stars
 
 
 # JavaScript
