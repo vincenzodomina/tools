@@ -57,12 +57,14 @@ npm install @material-ui/lab # for e.g. rating with stars
 npm install moment # managing time and dates in javascript
 
 ## Visual Studio Code plugins:
+# Bracket Pair Colorizer 2
 # Tailwind CSS Intellisense
 # SVG Viewer
 # path intellisense
 # sass
 # javascript code snippets
 # visual studio intellicode
+
 
 ## Frameworks for native development
 
