@@ -59,6 +59,7 @@ npm install moment # managing time and dates in javascript
 ## Visual Studio Code plugins:
 # Bracket Pair Colorizer 2
 # Tailwind CSS Intellisense
+# setting sync
 # SVG Viewer
 # path intellisense
 # sass
