@@ -98,3 +98,11 @@ npm install -g nodemon # Develop without restarting node on filechanges
 npm install --save-dev nodemon # Save nodemon as dev dependency, start it with: nodemon [your node app]
 npm install axios # Make http requests from node.js
 npm install cors # cross-origin-ressource-sharing, providing a Connect/Express middleware that can be used to enable CORS 
+
+# Amazon Web Services
+curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"  # download package to current folder
+sudo installer -pkg ./AWSCLIV2.pkg -target /.   #install
+aws configure. # configure iam user with access key and secret key and e.g. eu-central-1 as default server region and json
+aws s3 mb s3://your-bucket-name. # creates a bucket
+aws s3 ls. # lists buckets
+npm run build && aws s3 sync build/ s3://your-bucket-name.  # builds and deploys the react app
