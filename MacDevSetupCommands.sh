@@ -52,6 +52,7 @@ npm install @material-ui/core
 npm install @material-ui/icons
 npm install react-select # Autocompletion at search bars
 npm install @material-ui/lab # for e.g. rating with stars
+npm install material-table # tables https://material-table.com/
 
 
 # JavaScript
@@ -102,8 +103,8 @@ npm install cors # cross-origin-ressource-sharing, providing a Connect/Express m
 
 # Amazon Web Services
 curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"  # download package to current folder
-sudo installer -pkg ./AWSCLIV2.pkg -target /.   #install
-aws configure. # configure iam user with access key and secret key and e.g. eu-central-1 as default server region and json
-aws s3 mb s3://your-bucket-name. # creates a bucket
-aws s3 ls. # lists buckets
-npm run build && aws s3 sync build/ s3://your-bucket-name.  # builds and deploys the react app
+sudo installer -pkg ./AWSCLIV2.pkg -target /   #install
+aws configure # configure iam user with access key and secret key and e.g. eu-central-1 as default server region and json
+aws s3 mb s3://your-bucket-name # creates a bucket
+aws s3 ls # lists buckets
+npm run build && aws s3 sync build/ s3://your-bucket-name  # builds and deploys the react app
