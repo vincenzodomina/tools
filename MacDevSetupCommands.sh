@@ -1,9 +1,14 @@
 ## Mac setup and apps
 # show path in finder
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool true; killall Finder
-# Google chrome Browser - React Devtools
 # brew cask install visual-studio-code
 # Flux
+
+## Google chrome Browser - extensions:
+# React Devtools
+# Save all Resources
+# Pretty Beautiful Javascript
+# JSON Formatter
 
 ## Terminal
 xcode-select --install
