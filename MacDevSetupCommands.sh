@@ -77,6 +77,13 @@ npm install moment # managing time and dates in javascript
 ## Frameworks for native development
 
 # React native
+brew install yarn
+brew install node
+brew install watchman
+brew tap AdoptOpenJDK/openjdk
+brew cask install adoptopenjdk8
+npm install -g react-native-cli
+# -> then install android studio https://developer.android.com/studio/index.html
 
 # expo.io
 brew install watchman
