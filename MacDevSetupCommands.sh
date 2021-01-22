@@ -3,7 +3,8 @@
 # show path in finder
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool true; killall Finder
 # brew cask install visual-studio-code
-# Flux
+# Flux - blue light filter software
+# CleanMyMacX to delete Junk files from mac - from https://macpaw.com/
 
 ## Google chrome Browser - extensions:
 # React Devtools
