@@ -25,8 +25,10 @@ brew install bash # latest version of bash
 # install nvm/node
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 nvm install stable
+node --version # check installed node version
+nvm use 13 # switch to specific node version
 mkdir ~/Projects
-npm install -g lite-server eslint
+npm install -g lite-server eslint # simple localhost server
 # Create github personal access token to use as git password: https://github.com/settings/tokens
 # Setup git with github: https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/set-up-git
 brew install git
