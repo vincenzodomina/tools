@@ -15,15 +15,18 @@ defaults write com.apple.finder _FXShowPosixPathInTitle -bool true; killall Find
 ### Terminal
 
 xcode-select --install
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew update
+brew doctor # check installation
+brew analytics off
 brew cask install iterm2
 brew install tldr
 brew install tmux
 # update iterm2 settings -> colors, keep directory open new shell, keyboard shortcuts
 brew install bash # latest version of bash
 # install nvm/node
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+command -v nvm # to check nvm installation should output "nvm"
 nvm install stable
 node --version # check installed node version
 nvm use 13 # switch to specific node version
@@ -70,34 +73,22 @@ git remote add origin # https://github.com/vincenzodomina/my-repository.git
 git push -u origin master
 npm install redux # predictable state container with store, actions and reducers
 npm install @material-ui/core # React components
-npm install react-router-dom # dynamic routing inside of react, https://reacttraining.com/react-route
-npm install react-js-pagination # A ReactJS dumb component to render a pagination with no built-in styles. 
-npm install @material-ui/core
-npm install @material-ui/icons
-npm install react-select # Autocompletion at search bars
-npm install @material-ui/lab # for e.g. rating with stars
-npm install material-table # tables https://material-table.com/
-
 
 ### JavaScript
-
 npm install moment # managing time and dates in javascript
-
 
 ### Frameworks for native development
 
 # React native
 brew install yarn
-brew install node
-brew install watchman
+brew install watchman # Facebook file watching service, Watches files and records, or triggers actions, when they change.
 brew tap AdoptOpenJDK/openjdk
 brew cask install adoptopenjdk8
 npm install -g react-native-cli
 # -> then install android studio https://developer.android.com/studio/index.html
 
 # expo.io
-brew install watchman
-# node.js needs to be installed
+# node.js and watchman needs to be installed
 npm install expo-cli --global
 expo init my-new-project
 cd my-new-project
