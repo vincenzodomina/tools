@@ -264,3 +264,10 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 . "$HOME/.local/bin/env"
 
+# .aliases file:
+alias hallo="ls -lah"
+
+alias myip="curl https://api.ipify.org; echo"
+
+alias gs="git status"
+alias gas="git add . && git status"
